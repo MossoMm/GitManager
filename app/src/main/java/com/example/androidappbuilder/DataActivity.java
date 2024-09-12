@@ -103,16 +103,6 @@ public class DataActivity extends AppCompatActivity {
         UserInterface service = retrofit.create(UserInterface.class);
 
         Button button = (Button)findViewById(R.id.button);
-        TextView textview = (TextView)findViewById(R.id.textView);
-//        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(new Interceptor() {
-//            @Override
-//            public okhttp3.Response intercept(Chain chain) throws IOException {
-//                Request newRequest  = chain.request().newBuilder()
-//                        .addHeader("Authorization", "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")
-//                        .build();
-//                return chain.proceed(newRequest);
-//            }
-//        }).build();
         Button backbutton = (Button)findViewById(R.id.button2);
         Button comButton = (Button)findViewById(R.id.button3);
         comButton.setOnClickListener(new View.OnClickListener() {
